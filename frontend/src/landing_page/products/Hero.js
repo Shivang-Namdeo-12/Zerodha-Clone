@@ -1,4 +1,4 @@
-```jsx
+
 import React from "react";
 
 function Hero() {
@@ -27,4 +27,3 @@ function Hero() {
 }
 
 export default Hero;
-```

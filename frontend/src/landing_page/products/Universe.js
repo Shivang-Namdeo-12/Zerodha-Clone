@@ -1,4 +1,4 @@
-```jsx id="q4m7xz"
+
 import React from "react";
 
 function Universe() {
@@ -66,4 +66,4 @@ function Universe() {
 }
 
 export default Universe;
-```
+

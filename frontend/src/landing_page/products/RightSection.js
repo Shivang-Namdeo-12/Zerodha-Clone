@@ -1,4 +1,4 @@
-```jsx
+
 import React from "react";
 
 function RightSection({ imageURL, productName, productDesription, learnMore }) {
@@ -24,4 +24,3 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
 }
 
 export default RightSection;
-```

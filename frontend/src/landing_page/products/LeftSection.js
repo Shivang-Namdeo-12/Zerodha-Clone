@@ -1,4 +1,4 @@
-```jsx
+
 import React from "react";
 
 function LeftSection({
@@ -55,4 +55,3 @@ function LeftSection({
 }
 
 export default LeftSection;
-```
