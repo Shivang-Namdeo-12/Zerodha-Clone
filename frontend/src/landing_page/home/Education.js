@@ -6,7 +6,7 @@ function Education
         <div className='row'>
 
             <div className='col-6 '>
-               <img src='media/images/education.svg'style={{width:"70%"}}/>
+               <img src='media/images/education.svg' alt="Education"style={{width:"70%"}}/>
             </div>
 
             <div className='col-6'>
@@ -16,7 +16,7 @@ function Education
                 <p>TradingQ&A, the most active trading and investment community in India for all your market related queries.
 
 </p>
-                <a href='' className='mx-5' style={{textDecoration:"none"}}>TradingQ&A<i class="fa fa-long-arrow-right"></i></a>
+                <a href='/' className='mx-5' style={{textDecoration:"none"}}>TradingQ&A<i class="fa fa-long-arrow-right"></i></a>
                     </div>
             </div>
 
