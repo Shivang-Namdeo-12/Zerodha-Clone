@@ -1,3 +1,4 @@
+
 import React from "react";
 
 function Footer() {
@@ -5,55 +6,87 @@ function Footer() {
     <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
       <div className="container border-top mt-5">
         <div className="row mt-5">
+
+          {/* Company Logo */}
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img
+              src="media/images/logo.svg"
+              alt="Zerodha logo"
+              style={{ width: "50%" }}
+            />
+
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
+
+          {/* Company */}
           <div className="col">
             <p>Company</p>
-            <a href="/" >About</a>
+
+            <a href="/about">About</a>
             <br />
-            <a href="/" >Products</a>
+
+            <a href="/product">Products</a>
             <br />
-            <a href="/" >Pricing</a>
+
+            <a href="/pricing">Pricing</a>
             <br />
-            <a href="/" >Referral programme</a>
+
+            <a href="/">Referral programme</a>
             <br />
-            <a href="/" >Careers</a>
+
+            <a href="/">Careers</a>
             <br />
-            <a href="/" >Zerodha.tech</a>
+
+            <a href="/">Zerodha.tech</a>
             <br />
-            <a href="/" >Press & media</a>
+
+            <a href="/">Press & media</a>
             <br />
-            <a href="/" >Zerodha cares (CSR)</a>
+
+            <a href="/">Zerodha cares (CSR)</a>
             <br />
           </div>
+
+          {/* Support */}
           <div className="col">
             <p>Support</p>
-            <a href="/" >Contact</a>
+
+            <a href="/support">Contact</a>
             <br />
-            <a href="/" >Support portal</a>
+
+            <a href="/support">Support portal</a>
             <br />
-            <a href="/" >Z-Connect blog</a>
+
+            <a href="/">Z-Connect blog</a>
             <br />
-            <a href="/" >List of charges</a>
+
+            <a href="/">List of charges</a>
             <br />
-            <a href="/" >Downloads & resources</a>
+
+            <a href="/">Downloads & resources</a>
             <br />
           </div>
+
+          {/* Account */}
           <div className="col">
             <p>Account</p>
-            <a href="/" >Open an account</a>
+
+            <a href="/signup">Open an account</a>
             <br />
-            <a href="/" >Fund transfer</a>
+
+            <a href="/">Fund transfer</a>
             <br />
-            <a href="/" >60 day challenge</a>
+
+            <a href="/">60 day challenge</a>
             <br />
           </div>
         </div>
+
+        {/* Disclaimer */}
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities
@@ -98,6 +131,7 @@ function Footer() {
             claiming to be part of Zerodha and offering such services, please
             create a ticket here.
           </p>
+
         </div>
       </div>
     </footer>
@@ -105,3 +139,4 @@ function Footer() {
 }
 
 export default Footer;
+
