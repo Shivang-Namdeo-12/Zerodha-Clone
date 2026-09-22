@@ -31,7 +31,7 @@ function Login() {
 
     localStorage.setItem("token", data.token);
 
-    window.location.href = "https://zerodha-clone-ctkcs4kif-shivang18.vercel.app";
+   window.location.href = "https://zerodha-dashboard-8eudz98lq-shivang18.vercel.app/";
 
 } else {
 
