@@ -10,7 +10,7 @@ function Login() {
 
         try {
 
-            const response = await fetch("http://localhost:3002/login", {
+            const response = await fetch("https://zerodha-backend-w3gk.onrender.com/login", {
                 method: "POST",
 
                 headers: {
@@ -31,7 +31,7 @@ function Login() {
 
     localStorage.setItem("token", data.token);
 
-    window.location.href = "http://localhost:3001";
+    window.location.href = "https://zerodha-clone-ctkcs4kif-shivang18.vercel.app";
 
 } else {
 

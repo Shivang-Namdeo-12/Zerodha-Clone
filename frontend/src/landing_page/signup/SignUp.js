@@ -16,7 +16,7 @@ function SignUp() {
 
         try {
 
-            const response = await fetch("http://localhost:3002/signup", {
+            const response = await fetch("https://zerodha-backend-w3gk.onrender.com/signup", {
                 method: "POST",
 
                 headers: {
@@ -60,13 +60,40 @@ function SignUp() {
     };
 
 
-    const handleVerify = () => {
+   const handleVerify = async () => {
 
-        console.log("Entered Code:", verificationCode);
+    try {
 
-        alert("Verification API will be added next.");
+        const response = await fetch("https://zerodha-backend-w3gk.onrender.com/verify", {
+            method: "POST",
 
-    };
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify({
+                email: email,
+                verificationCode: verificationCode
+            })
+        });
+
+        const data = await response.json();
+
+        console.log(data);
+
+        if (response.ok) {
+            alert("Email verified successfully!");
+        } else {
+            alert(data.message);
+        }
+
+    } catch (error) {
+
+        console.log("Verification Error:", error);
+
+        alert("Unable to connect with server");
+    }
+};
 
 
     return (
